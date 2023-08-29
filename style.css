@@ -1,0 +1,30 @@
+@
+
+* {
+
+}
+/* Nav */
+
+nav  {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+.logo__image {
+    display: flex;
+    align-items: center;
+}
+.logo__image--words{
+    height: 25pxx
+;
+    color:inherit ;
+    text-decoration: inherit;
+    line-height: 36px;
+
+
+
+    
+}
