@@ -1,5 +1,6 @@
-@
+@media {
 
+}
 * {
 
     padding: 0;
@@ -18,17 +19,17 @@ nav  {
     border-color: transparent;
 }
 
+
+ul {
+    display: flex;
+     max-width: 1300px;
+}
+
 li {
     list-style-type: none;
     padding-left: 16px;
 }
-.nav_button_wrapper {
-    display: flex;
-    text-decoration: none;
-    justify-content: space-between;
-    width: 100%;
 
-}
 
 .logo__image {
     display: flex;
@@ -41,7 +42,13 @@ li {
     text-decoration: inherit;
     line-height: 36px;
 
+}
 
+/* Media Adjust */
 
-    
+@media (max-width:768px) {
+ul {
+    display: none;
+}
+
 }
