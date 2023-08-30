@@ -36,11 +36,11 @@ li {
     align-items: center;
 }
 .logo__image--words{
-    height: 25pxx
-;
+    height: 25px;
     color:inherit ;
     text-decoration: inherit;
-    line-height: 36px;
+    line-height: 1.5;
+    font-weight: 900
 
 }
 
