@@ -18,17 +18,27 @@ nav  {
     justify-content:space-between;
     padding: 0px 16px;
     border-color: transparent;
+    
+  
 }
 
+nav ul li a {
+    text-decoration: none;
+  }
+  
 
 ul {
     display: flex;
-     max-width: 1300px;
+    max-width: 1300px;
+   
+     
 }
 
 li {
     list-style-type: none;
     padding-left: 16px;
+    text-decoration: none;
+ 
 }
 
 
@@ -42,7 +52,13 @@ li {
     text-decoration: inherit;
     line-height: 1.5;
     font-weight: 900
+}
 
+.logo__Treact {
+    font-weight: 900;
+   
+}
+    
 }
 
 /* Media Adjust */
